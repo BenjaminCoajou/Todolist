@@ -2,16 +2,18 @@
 import React from 'react';
 
 // == Import
-import Counter from 'src/containers/Counter';
-import reactLogo from './react-logo.svg';
+import Todo from '../Todo'
+import Terminated from '../Terminated';
 import './styles.css';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <h1>Composant : App</h1>
-    <Counter />
+    <h1 className="title">Todo List</h1>
+    <main className="main">
+      <Todo />
+      <Terminated />
+    </main>
   </div>
 );
 

@@ -1,9 +1,39 @@
 .app {
-  width: 500px;
+  width: 80%;
   margin: 1em auto;
   text-align: center;
+  background-color: teal;
 }
 
 .app img {
   max-width: 150px;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  width: 45%;
+  margin: 2.5%;
+}
+
+.todo {
+  background-color: white;
+  color: blue
+}
+
+.terminated {
+  background-color: blue;
+  color: white;
+}
+
+.task {
+  display: flex;
+  justify-content: space-around;
 }
