@@ -4,7 +4,7 @@ import React from 'react';
 // == Import
 import Todo from '../Todo'
 import Terminated from '../Terminated';
-import Newtask from '../Newtask';
+import Newtask from '../../containers/NewTask';
 import './styles.css';
 
 // == Composant
