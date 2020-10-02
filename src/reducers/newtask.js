@@ -1,9 +1,9 @@
-import {SUBMIT_TASK, INPUT_CHANGE} from '../actions/newtask';
+import {INPUT_CHANGE, SUBMIT_TASK} from '../actions/newtask';
 
 const initialState = {
     task: {
         content: '',
-        status: '',
+        status: '1',
     }
 };
 
@@ -15,6 +15,13 @@ const newtask = (state = initialState, action = {}) => {
           task: {
               ...state.task,
               ...action.payload,
+          }
+        };
+        case SUBMIT_TASK:
+        return {
+          ...state,
+          task: {
+            content:'',
           }
         };
       default:

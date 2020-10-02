@@ -12,8 +12,8 @@ const mapDispatchToProps = (dispatch) => ({
     inputChange: (payload) => {
         dispatch(inputChange(payload));
     },
-    handleSubmit: () => {
-        dispatch(submitTask());
+    handleSubmit: (payload) => {
+        dispatch(submitTask(payload));
     },
 });
 

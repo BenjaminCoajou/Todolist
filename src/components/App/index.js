@@ -2,7 +2,7 @@
 import React from 'react';
 
 // == Import
-import Todo from '../Todo'
+import Todo from '../../containers/Todo'
 import Terminated from '../Terminated';
 import Newtask from '../../containers/NewTask';
 import './styles.css';
